@@ -1,0 +1,3 @@
+*AULA 16 SEÇÃO 5*
+
+the head element = Parte pensante da página, onde ficam partes importantes do arquivo, metadados, estilo, scripts etc. Integram o head o title, o base, o link, o meta e o style

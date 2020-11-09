@@ -1,0 +1,7 @@
+*AULA 18 SEÇÃO 5*
+
+(Aplicando JavaScript)
+Funciona da mesma forma que C, você precisa atribuir a variável um valor, abrindo uma tag
+<script> = Abre a possibilidade de criar uma função
+window.onload = Faz com que a função seja exibida na tela
+id="variavel" = exibe na tela o que foi arquivado dentro da variável chamada

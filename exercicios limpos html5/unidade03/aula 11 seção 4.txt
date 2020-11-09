@@ -1,0 +1,9 @@
+*AULA 11 - SEÇÃO 4*
+
+<html> = São as tags que abre e fecham a edição de texto
+<head> = Cabeçalho do documento, onde estão as instruções
+<body> = Corpo da página, onde o usuário vê o conteúdo da página
+<!DOCTYPE> = Identifica que tipo de documento é aquele que está sendo usado
+             Ex.: <!DOCTYPE html> ---> Está definindo que aquele documento é do tipo HTML
+<html lang=""> = Determina qual linguagem/idioma será utilizado
+                 Ex.: <html lang="pt-BR"> ---> Linguagem/Idioma = Português, Brasil

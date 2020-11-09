@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Aulas de Javascript</title>
+        <script>
+            //para mostrar dois dígitos
+            function doisDigitos (digitos){
+                if (digitos <10){
+                    return "0" + digitos;
+                } else {
+                    return digitos;
+                }
+            }
+            var atualmente = new Date();
+            
+            console.log(doisDigitos(atualmente.getHours()) + ":" + doisDigitos(atualmente.getMinutes()) + ":" + atualmente.getSeconds());
+        </script>
+    </head>
+    <body>
+        
+    </body>
+</html>

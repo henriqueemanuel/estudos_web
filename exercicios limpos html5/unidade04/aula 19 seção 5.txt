@@ -1,0 +1,5 @@
+*AULA 19 SEÇÃO 5*
+
+Metadados = Dados sobre outros dados.
+	    Um item de um metadado pode dizer do que se trata aqulea informação.
+	    Facilitam o entendimento dos relacionamentos.

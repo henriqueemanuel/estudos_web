@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Aulas de Javascript</title>
+        <script>
+            var nome = "emanuel henrique";
+            
+            //var.toUpperCase transforma a string inteira em letras maiúsculas
+            
+            //para apenas a inicial maiúscula, primeiro transforma o string todo em letra minúscula
+            var letras_minusculas = nome.toLowerCase();
+            
+            //transformando apenas a primeira letra em maíuscula (seleciona a posição com charAt)
+            var primeira = letras_minusculas.charAt(0).toUpperCase();
+            
+            //declarando o nome com a primeira letra maiuscula
+            //chama a variavel que isolou a inicial e transformou em maiusculo, em seguida usa o substr pra completar a palavra com a palavra restante desconsiderando sua inicial, visto que já foi chamada em maiúsculo na variável primeira (indo da segunda letra até seu tamanho final)
+            var primeiro_nome = primeira + letras_minusculas.substr(1,letras_minusculas.length);
+                                                  
+            //exibindo apenas a primeira palavra da variável
+            console.log(primeiro_nome.split(" ")[0]);
+        </script>
+    </head>
+    <body>
+        
+    </body>
+</html>

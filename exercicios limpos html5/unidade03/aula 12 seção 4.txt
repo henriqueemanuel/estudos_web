@@ -1,0 +1,7 @@
+*AULA 12 SEÇÃO 4*
+
+<title> = Título da página, é o que aparece no topo do navegador
+<meta> = Possui vários atributos
+         Ex.: <meta charset="utf-8"> ---> Configuração de caracteres
+                                     ---> utf-8 abrange o português
+<p> = Tag de parágrafo

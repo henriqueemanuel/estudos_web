@@ -1,0 +1,5 @@
+*AULA 22 SEÇÃO 6*
+
+<h1> = Dá destaque ao texto
+Existe de <h1> ao <h6>
+<hgroup> = Agrupar os textos de cabeçalho

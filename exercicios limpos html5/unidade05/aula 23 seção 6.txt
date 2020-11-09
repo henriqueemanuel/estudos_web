@@ -1,0 +1,5 @@
+*AULA 23 SEÇÃO 6*
+
+Adicionando parágrafos
+
+<p> = Põe um paragrafo para o texto

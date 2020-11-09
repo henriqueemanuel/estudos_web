@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <title>Curso HTML5 Essencial</title>
+        
+        <link href="css/estilo.css" rel="stylesheet" media="screen">
+    </head>
+
+    <body>
+        
+        <h2>Formulário</h2>
+        <form action="destino.html" method="post">
+            <label for="nomeCompleto">Nome Completo</label>
+            <input type="text" name="nomeCompleto" id="nomeCompleto" size="50" maxlength="100" required>
+            <!-- "required" torna como obrigação responder aquele campo do formulário e  com os caracteres devidos -->
+            
+            <label for="telefone">Telefone Completo</label>
+            <input type="tel" name="telefone" id="telefone" size="12" maxlength="20">
+            
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" size="20" maxlength="30" required>
+            
+            <input type="submit" value="Enviar" id="enviar" name="enviar">
+        </form>
+    
+    </body>
+</html>

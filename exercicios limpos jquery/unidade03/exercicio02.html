@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Curso jQuery Fundamental</title> 
+    </head>
+
+    <body>
+    	<nav>
+        	<a href="#">Brasil</a>
+            <a href="#">Argentina</a>
+            <a href="#">Uruguai</a>
+            <a href="#">Chile</a>
+        </nav>
+        
+		<!-- scripts -->
+        <script src="jquery-3.2.1.min.js"></script>
+        <script>    
+        	$(function() {
+                //:first(ou odd ou even ou last sao usados pra especificar o elemento a ser executado)
+				$("nav a:contains('Brasil')").css("color","red").css("text-decoration","none");
+            })
+        </script>   
+                
+    </body>
+</html>

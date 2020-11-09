@@ -1,0 +1,10 @@
+*AULA 25 SEÇÃO 6*
+
+Adicionando marcações
+
+Negrito = <b></b> (bold)
+Italico = <i></i> 
+Sublinhado = <u></u> (underline)
+Subscrito = <sub></sub>
+Superescrito = <sup></sup>
+Riscado = <s></s>

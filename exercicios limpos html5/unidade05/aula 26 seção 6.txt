@@ -1,0 +1,10 @@
+*AULA 26 SEÇÃO 6*
+
+Trabalhando com listas
+<ul> = Lista não ordenada (bolinha)
+<ol> = Lista ordenada (enumerado)
+<dl> = Lista de descrição
+    <dt> = Titulo
+    <dd> = Descrição
+Pode-se alterar o estilo das marcações das listas sem precisar de CSS
+   <ul(ou ol) type="circle/square/etc">

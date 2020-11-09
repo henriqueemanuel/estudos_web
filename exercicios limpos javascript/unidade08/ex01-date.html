@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Aulas de Javascript</title>
+        <script>
+            var meses = ["Janeiro","Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","OUTUBRO"]
+            var atualmente = new Date();
+            
+            console.log(atualmente.getDate() + " de " + meses[atualmente.getMonth()] + " de " + atualmente.getFullYear());
+            
+            
+            //pegando o dia de uma data específica
+            var aniversario = new Date(2000,12,29);
+            var dias = ["Segunda","Terça","Quarta","Quinta","Sexta","Sábado","Domingo"]
+            console.log(dias[aniversario.getDay()]);
+        </script>
+    </head>
+    <body>
+        
+    </body>
+</html>

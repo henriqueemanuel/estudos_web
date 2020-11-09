@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Curso jQuery Fundamental</title>
+        <style>
+			#janela { width:300px; height:300px; background-color:#069; margin-top:20px }
+		</style>
+        
+        <script src="jquery-3.2.1.min.js"></script>
+        <script>
+            //mostrando e escondendo elementos na tela através de cliques
+			$(function(e) {
+                $('#janela').hide();
+                
+                $('#mostrar').click(mostrarElemento);
+                $('#esconder').click(esconderElemento);
+            })
+            
+            function mostrarElemento(e) {
+                $('#janela').show();
+            }
+            function esconderElemento(e){
+                $('#janela').hide();
+            }
+            //para exibir ou esconder passando apenas o mouse por cima
+            //$('mostrar').hover(mostrarElemento,esconderElemento;)
+		</script>        
+    </head>
+
+    <body>
+        <input type="button" id="mostrar" 	value="Mostrar" />
+        <input type="button" id="esconder" 	value="Esconder" />
+        
+        <div id="janela"></div>
+    </body>
+
+</html>

@@ -1,0 +1,7 @@
+*AULA 17 SEÇÃO 5*
+
+Estilo serve pra personalizar aparencia de uma pagina
+Abrindo a tag style, é possível personalizar itens da página
+Background = Responsável pela cor de fundo, as cores são exibidas através de informações hexadecimais;
+Font-family = Fonte da página
+Color = Cor do texto
